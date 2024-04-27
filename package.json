@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "@flaticon/flaticon-uicons": "^3.2.1",
-    "dotenv": "^16.4.5"
+    "dotenv": "^16.4.5",
+    "vite": "^5.2.10"
   }
 }
