@@ -1,4 +1,4 @@
-import { defineConfig } from "vit1e";
+import { defineConfig } from "vite";
 import path from "path";
 
 export default defineConfig({
