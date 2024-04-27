@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: "Eurostile";
-  src: url("./assets/fonts/eurostile.TTF");
+  src: url("./src/assets/fonts/eurostile.TTF");
   box-shadow: 0 0 10px rgba(255, 255, 255, 10);
 }
 .container {
@@ -30,7 +30,7 @@ h1 {
   height: 210px;
   border: 80%;
   border-radius: 100%;
-  background-image: url("./assets/images/avatar.jpg");
+  background-image: url("./src/assets/images/avatar.jpg");
   background-size: cover;
   filter: drop-shadow(0 0 10px rgba(43, 61, 40, 10));
 
@@ -80,7 +80,6 @@ a:hover {
   background-color: white; 
   border-color: white;
   border: solid rgb(255, 255, 255);
-  transition: background-color 0.1s ease;
   color: #2b3d28;
   filter: drop-shadow(0 0 10px rgba(43, 61, 40, 0.8));
   
