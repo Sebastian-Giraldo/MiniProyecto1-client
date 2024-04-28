@@ -15,16 +15,10 @@
     <div class="container">
       <section class="barr">
         <nav class="topnav" id="myTopnav">
-          <a href="index.html">
-            <!-- <img src="./assets/icon/home.png" alt="home" /> -->
-            Home
-          </a>
-          <a href="#">Testimonies</a>
-          <a href="#">work & experience</a>
+          <a href="index.html"> Home </a>
+          <a href="#testimonies">Testimonies</a>
+          <a href="#work">work & experience</a>
           <a href="./pages/contact/contact.html">Contact</a>
-          <!-- <a href="javascript:void(0)" class="icon" onclick="myFunction()">
-            <img src="./assets/icon/menu.png" alt="menu">
-          </a>           -->
         </nav>
       </section>
       <section class="aboutme">
@@ -52,11 +46,79 @@
         </p>
       </section>
       <section class="works">
-        <div class="block1"></div>
-        <div class="block2"></div>
-        <div class="block3"></div>
-        <div class="block4"></div>
+        <div class="block1 testimonial">
+          <h2 id="testimonies">Testimonials</h2>
+          <div class="testimonial-card">
+            <h3>Pascal Tremblay</h3>
+            <p>
+              “Sebastian was a real pleasure to work with and we look forward to
+              working with him again. He’s definitely the kind of designer you
+              can trust with a project from start to finish.”
+            </p>
+          </div>
+          <div class="testimonial-card">
+            <h3>Alvin Engler</h3>
+            <p>
+              “Sebastian's a clear communicator with the tenacity and confidence
+              to really dig in to tricky design scenarios and the collaborative
+              friction that's needed to produce excellent work.”
+            </p>
+          </div>
+        </div>
+        <div class="block2 experience">
+          <h2 id="work">Work & Experience</h2>
+          <div class="experience-card">
+            <h3>INTELIGENCIA ARTIFICIAL BÚSQUEDA NO INFORMADA</h3>
+            <p>
+              En este proyecto se aborda la exploración de una matriz mediante
+              diferentes técnicas de búsqueda, entre las que se incluyen la
+              búsqueda por amplitud, la búsqueda por costo y la búsqueda por
+              profundidad iterativa. El objetivo principal es desarrollar un
+              programa que sea capaz de aplicar estas técnicas para encontrar
+              soluciones óptimas en la matriz, según los criterios definidos
+              para cada tipo de búsqueda. Para lograr esto, se utilizará un
+              enfoque de inteligencia artificial y se aplicarán los conceptos y
+              algoritmos fundamentales de la teoría de búsqueda en grafos
+            </p>
+            <br />
+            <a
+              href="https://github.com/Sebastian-Giraldo/ProyectoBusquedaNoInformada.git"
+              >Click to GitHub</a
+            >
+          </div>
+          <div class="experience-card">
+            <h3>Proyecto final FADA</h3>
+            <p>
+              En este proyecto se debe construir una librería que provea los
+              métodos para trabajar con matrices dispersas. Features: Cargar un
+              archivo con una matriz Generar la representación coordenada
+              Generar la representación comprimida por filas CSR Generar la
+              representación basada en columnas CSC
+            </p>
+            <br />
+            <a
+              href="https://github.com/Sebastian-Giraldo/fada2022-proyecto-Java.git"
+              >Click to GitHub</a
+            >
+          </div>
+        </div>
       </section>
+      <footer>
+        <div class="social-links">
+          <a href="#" class="social-link"
+            ><img src="./assets/icon/facebook.png" alt="facebook"></a>
+          <a href="#" class="social-link"
+            ><img src="/assets/icon/twitter.png" alt="twiter"></a>
+          <a href="#" class="social-link"
+            ><img src="/assets/icon/instagram.png" alt="instagram"></a>
+          <a href="#" class="social-link"
+            ><img src="/assets/icon/linkedin.png" alt="twiter"></a>
+        </div>
+        <a href="./pages/contact/contact.html" class="contact-btn"
+          >Let's do this</a
+        >
+        
+      </footer>
     </div>
     <script src="./app.js"></script>
   </body>
