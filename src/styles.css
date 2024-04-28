@@ -50,14 +50,12 @@ h1 {
   display: flex;
   justify-content: space-evenly;
   overflow: hidden;
+  flex-direction: column;
+  align-items: center;
 }
 
 .barr .icon {
   object-fit: cover;
-}
-
-.home {
-  margin-top: 38px;
 }
 
 nav {
@@ -73,16 +71,11 @@ a {
   font-size: 1.3rem;
   font-weight: bold;
   cursor: pointer;
-  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.3));
 }
 
 a:hover {
-  background-color: white; 
-  border-color: white;
-  border: solid rgb(255, 255, 255);
-  color: #2b3d28;
   filter: drop-shadow(0 0 10px rgba(43, 61, 40, 0.8));
-  
+
 }
 .aboutme {
   margin-top: 50px;
@@ -123,9 +116,6 @@ a:hover {
   text-align: center;
 }
 
-textarea {
-  field-sizing: content;
-}
 
 /* Tablets and Smartphones config */
 @media screen and (width <= 1200px) {
@@ -139,32 +129,29 @@ textarea {
     padding: 3vh;
   }
 
+  .avatar{
+    margin-top: 4%;
+  }
+
   .introduction h1 {
     font-size: 2rem;
     text-align: center;
     margin-top: 10%;
   }
+
+  .barr {
+    font-size: .8rem;
+    padding: 10px;
+  }
+
 }
 
-@media screen and (width <= 700) {
-  .barr a:not(:first-child) {
-    display: none;
-  }
-  .barr a.icon {
-    float: right;
-    display: block;
-  }
-  .barr.responsive {
-    position: relative;
-  }
-  .barr.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .barr.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
+@media screen and (width <=320px) {
+  .avatar{
+    margin-top: 13%;
   }
 }
+
+
+
+/* responsive nav bar*/
