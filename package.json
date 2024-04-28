@@ -1,13 +1,13 @@
 {
-  "name": "client",
+  "name": "Portafolio Sebastian Giraldo",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Landing portafolio Sebastian",
+  "main": "src/app.js",
   "scripts": {
     "dev": "vite"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["landing", "portafolio", "client"],
+  "author": "Sebastian Dario Giraldo Rodas",
   "license": "ISC",
   "dependencies": {
     "@flaticon/flaticon-uicons": "^3.2.1",

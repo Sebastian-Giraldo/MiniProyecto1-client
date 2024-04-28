@@ -6,7 +6,7 @@ export default defineConfig({
   rollUpOptions: {
     input: {
       index: path.resolve(__dirname, "src/index.html"),
-      contact: path.resolve(__dirname, "src/pages/contact/contact.hmtl"),
+      contact: path.resolve(__dirname, "src/pages/contact/contact.html"),
     }
   },
   outDir: 'dist',
