@@ -1,17 +1,24 @@
 {
-  "name": "Portafolio Sebastian Giraldo",
+  "name": "portafolio-sebastian-giraldo",
   "version": "1.0.0",
   "description": "Landing portafolio Sebastian",
   "main": "src/app.js",
   "scripts": {
-    "dev": "vite"
+    "dev": "vite",
+    "deploy": "vercel --prod",
+    "login": "vercel login"
   },
-  "keywords": ["landing", "portafolio", "client"],
+  "keywords": [
+    "landing",
+    "portafolio",
+    "client"
+  ],
   "author": "Sebastian Dario Giraldo Rodas",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@flaticon/flaticon-uicons": "^3.2.1",
     "dotenv": "^16.4.5",
+    "vercel": "^34.1.3",
     "vite": "^5.2.10"
   }
 }
