@@ -196,6 +196,10 @@ footer {
   margin: 0 10px;
 }
 
+.social-link:hover{
+  filter: drop-shadow(0 0 10px rgb(255, 255, 255, 1));
+}
+
 .contact-btn {
   background-color: #4caf50;
   color: white;
