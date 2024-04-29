@@ -12,7 +12,7 @@ async function sendData(event) {
   };
 
   try {
-    const response = await fetch("https://miniproyecto1-server.onrender.com/", {
+    const response = await fetch("localhost:1789/pages/contact/contact", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
